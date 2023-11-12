@@ -1,2 +1,2 @@
 # Social-Network
-ReactJS Course Final Project
+ReactJS Course Project
