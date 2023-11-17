@@ -1,2 +1,2 @@
-# Social-Network
+# Blog
 ReactJS Course Project
