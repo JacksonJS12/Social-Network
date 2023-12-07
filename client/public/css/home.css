@@ -1,0 +1,53 @@
+body {
+    font-family: "Poppins", sans-serif;
+    color: #0c0c0c;
+    background-color: #ffffff;
+  }
+  
+  .layout_padding {
+    padding: 75px 0;
+  }
+  
+  .layout_padding2 {
+    padding: 45px 0;
+  }
+  
+  .layout_padding2-top {
+    padding-top: 45px;
+  }
+  
+  .layout_padding2-bottom {
+    padding-bottom: 45px;
+  }
+  
+  .layout_padding-top {
+    padding-top: 75px;
+  }
+  
+  .layout_padding-bottom {
+    padding-bottom: 75px;
+  }
+  
+  .custom_heading {
+    color: #030404;
+  }
+  
+  .custom_heading span {
+    color: #21d7ff;
+  }
+  
+  
+  .carousel-indicators {
+    bottom: -15%;
+  }
+  
+  .carousel-indicators li {
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    opacity: 1;
+  }
+  
+  .carousel-indicators .active {
+    background-color: #010106;
+  }

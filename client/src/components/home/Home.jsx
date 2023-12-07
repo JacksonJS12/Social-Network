@@ -1,0 +1,161 @@
+import About from "../about/About";
+
+export default function Hero() {
+    return (
+        <div className="hero_area">
+            <section className="slider_section position-relative">
+                <div
+                    id="carouselExampleIndicators"
+                    className="carousel slide"
+                    data-ride="carousel"
+                >
+                    <ol className="carousel-indicators">
+                        <li
+                            data-target="#carouselExampleIndicators"
+                            data-slide-to="0"
+                            className="active"
+                        ></li>
+                        <li
+                            data-target="#carouselExampleIndicators"
+                            data-slide-to="1"
+                        ></li>
+                        <li
+                            data-target="#carouselExampleIndicators"
+                            data-slide-to="2"
+                        ></li>
+                        <li
+                            data-target="#carouselExampleIndicators"
+                            data-slide-to="3"
+                        ></li>
+                    </ol>
+                    <div className="carousel-inner">
+                        <div className="carousel-item active">
+                            <div className="container-fluid">
+                                <div className="row">
+                                    <div className="col-md-4 offset-md-2">
+                                        <div className="slider_detail-box">
+                                            <h1>
+                                                Professional
+                                                <span>Care Your Pet</span>
+                                            </h1>
+                                            <p>
+                                                Lorem Ipsum is simply dummy text
+                                                of the printing and typesetting
+                                                industry. Lorem Ipsum has been
+                                                the industry's standard dummy
+                                                text ever
+                                            </p>
+                                            <div className="btn-box">
+                                                <a href="" className="btn-1">
+                                                    Buy now
+                                                </a>
+                                                <a href="" className="btn-2">
+                                                    Contact
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div className="col-md-6"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="carousel-item">
+                            <div className="container-fluid">
+                                <div className="row">
+                                    <div className="col-md-4 offset-md-2">
+                                        <div className="slider_detail-box">
+                                            <h1>
+                                                Professional
+                                                <span>Care Your Pet</span>
+                                            </h1>
+                                            <p>
+                                                Lorem Ipsum is simply dummy text
+                                                of the printing and typesetting
+                                                industry. Lorem Ipsum has been
+                                                the industry's standard dummy
+                                                text ever
+                                            </p>
+                                            <div className="btn-box">
+                                                <a href="" className="btn-1">
+                                                    Buy now
+                                                </a>
+                                                <a href="" className="btn-2">
+                                                    Contact
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div className="col-md-6"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="carousel-item">
+                            <div className="container-fluid">
+                                <div className="row">
+                                    <div className="col-md-4 offset-md-2">
+                                        <div className="slider_detail-box">
+                                            <h1>
+                                                Professional
+                                                <span>Care Your Pet</span>
+                                            </h1>
+                                            <p>
+                                                Lorem Ipsum is simply dummy text
+                                                of the printing and typesetting
+                                                industry. Lorem Ipsum has been
+                                                the industry's standard dummy
+                                                text ever
+                                            </p>
+                                            <div className="btn-box">
+                                                <a href="" className="btn-1">
+                                                    Buy now
+                                                </a>
+                                                <a href="" className="btn-2">
+                                                    Contact
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div className="col-md-6">
+                                        <div className="slider_img-box"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="carousel-item">
+                            <div className="container-fluid">
+                                <div className="row">
+                                    <div className="col-md-4 offset-md-2">
+                                        <div className="slider_detail-box">
+                                            <h1>
+                                                Professional
+                                                <span>Care Your Pet</span>
+                                            </h1>
+                                            <p>
+                                                Lorem Ipsum is simply dummy text
+                                                of the printing and typesetting
+                                                industry. Lorem Ipsum has been
+                                                the industry's standard dummy
+                                                text ever
+                                            </p>
+                                            <div className="btn-box">
+                                                <a href="" className="btn-1">
+                                                    Buy now
+                                                </a>
+                                                <a href="" className="btn-2">
+                                                    Contact
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div className="col-md-6">
+                                        <div className="slider_img-box"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    );
+}
