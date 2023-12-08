@@ -1,0 +1,19 @@
+@import "home.css";
+@import "header.css";
+@import "footer.css";
+@import "slider.css";
+@import "about.css";
+@import "service.css";
+@import "gallery.css";
+@import "buy.css";
+@import "client.css";
+@import "info.css";
+@import "create-edit.css";
+
+html {
+    height: 100%;
+}
+body {
+    min-height: 100%;
+    position: relative;
+}

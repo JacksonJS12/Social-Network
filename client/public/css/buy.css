@@ -1,0 +1,24 @@
+.buy_section {
+    text-align: center;
+  }
+  
+  .buy_section p {
+    margin: 25px 0;
+  }
+  
+  .buy_section a {
+    display: inline-block;
+    padding: 12px 65px;
+    background-color: #023b48;
+    border: 1px solid #023b48;
+    color: #ffffff;
+  }
+  
+  .buy_section a:hover {
+    background-color: transparent;
+    color: #023b48;
+  }
+  
+  .client_section .pl-100 {
+    padding-left: 100px;
+  }
