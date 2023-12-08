@@ -1,9 +1,8 @@
 /* slider section */
 .slider_section {
-    background-image: url(/images/create_post_cat.png);
-    padding: 13% 0;
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
+    background-image: url(/images/hero.png);
+      padding: 13% 0;
+    background-repeat: repeat;
   }
   
   .slider_section .row {
@@ -64,3 +63,18 @@
     width: 100%;
   }
   
+
+.carousel-indicators {
+  bottom: -15%;
+}
+
+.carousel-indicators li {
+  width: 20px;
+  height: 20px;
+  border-radius: 100%;
+  opacity: 1;
+}
+
+.carousel-indicators .active {
+  background-color: #010106;
+}

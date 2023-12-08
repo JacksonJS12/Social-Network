@@ -27,7 +27,7 @@ export default function Header() {
                     <a className="nav-link" href="/create">Create Post</a>
                   </li>
                   <li className="nav-item">
-                    <a className="nav-link" href="/news">News</a>
+                    <a className="nav-link" href="/forum">Forum</a>
                   </li>
                   <li className="nav-item">
                     <a className="nav-link" href="/about">About</a>

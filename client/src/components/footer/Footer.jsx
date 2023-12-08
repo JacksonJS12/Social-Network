@@ -1,9 +1,7 @@
 export default function Footer() {
     return (
-        <section className="container-fluid footer_section">
-            <p>
-                &copy; Cat Blog 2023
-            </p>
-        </section>
+        <footer className="footer">
+            <p>&copy; Cat Blog 2023</p>
+        </footer>
     );
 }

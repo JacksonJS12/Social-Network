@@ -4,7 +4,6 @@ import Header from "./components/header/Header";
 import Hero from "./components/home/Home";
 import About from "./components/about/About";
 import Create from "./components/create-post/Create";
-
 function App() {
     return (
         <>
@@ -14,9 +13,8 @@ function App() {
                 <Routes>
                     <Route path="/" element={<Hero />} />
                     <Route path="/about" element={<About />} />
-                    <Route path="/create" element={<Create />}/>
+                    <Route path="/create" element={<Create />} />
                 </Routes>
-
                 <Footer />
             </div>
         </>

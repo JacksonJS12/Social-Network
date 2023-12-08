@@ -11,8 +11,8 @@ export default function About() {
                     <div className="col-md-6">
                         <div className="detail-box">
                             <h2 className="custom_heading">
-                                About Our Pets
-                                <span>Clinic</span>
+                                About Our Cat
+                                <span>Blog</span>
                             </h2>
                             <p>
                                 Lorem Ipsum is simply dummy text of the printing
@@ -24,7 +24,7 @@ export default function About() {
                                 since the
                             </p>
                             <div>
-                                <a href="">About More</a>
+                                <a href="/about/more">About More</a>
                             </div>
                         </div>
                     </div>

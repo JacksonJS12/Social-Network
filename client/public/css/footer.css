@@ -1,20 +1,27 @@
 /* footer section*/
-.footer_section {
-    position: fixed;
-    bottom: 0;
+.footer{
     background-color: #202222;
     padding: 20px;
-    font-weight: 500;
+    
+    margin-bottom: 0;
+    width: 100%;
+
+    position: absolute;
+    bottom: -1px;
+    height: 65px;
+
 }
 
-.footer_section p {
+.footer p {
     color: #ffffff;
     margin: 0;
     text-align: center;
 }
 
-.footer_section a {
+.footer a {
     color: #ffffff;
 }
 
+
+    
 /* end footer section*/
