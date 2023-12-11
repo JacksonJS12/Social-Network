@@ -1,11 +1,11 @@
-export default function Create() {
+export default function Login() {
     return (
         <div className="form_container ">
-            <section id="create-page" className="auth">
+            <section id="login-page" className="auth">
                 <form id="create">
                     <div className="container">
-                        <h1>Create Post</h1> 
-                         <input
+                        <h1>Login</h1>
+                        <input
                             type="text"
                             id="title"
                             name="title"
@@ -17,33 +17,17 @@ export default function Create() {
                             name="title"
                             placeholder="Enter title..."
                         />
-
                         <input
                             type="text"
-                            id="category"
-                            name="category"
-                            placeholder="Enter category..."
+                            id="password"
+                            name="password"
+                            placeholder="password title..."
                         />
-
-                        <input
-                            type="text"
-                            id="imageUrl"
-                            name="imageUrl"
-                            placeholder="Upload a photo..."
-                        />
-
-                        <textarea
-                            name="summary"
-                            id="summary"
-                            cols="40"
-                            rows="3"
-                            placeholder="Summary..."
-                        ></textarea>
                         <input
                             className="btn-submit"
                             id="submit"
                             type="submit"
-                            value="Create Post"
+                            value="Login"
                         />
                     </div>
                 </form>
