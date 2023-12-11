@@ -1,8 +1,7 @@
-#create-page,
-#edit-page {
+#login-page {
     background-image: url(/images/backgroud.jpg);
     position: relative;
-    width: 700px;
+    width: 600px;
     height: 750px;
     border-radius: 20px;
     padding: 40px;
@@ -12,13 +11,13 @@
     box-shadow: 0px 0px 32px 0px #32485e, -14px -14px 20px #191c21;
     border-radius: 20px;
 }
-#create-page .form_container input,
+
+.form_container input,
 textarea {
     border: none;
     outline: none;
     background-color: transparent;
     border-bottom: 1px solid #000000;
-    padding-top: 35px;
     width: 100%;
     display: inline-block;
     padding: 12px 20px;
@@ -26,22 +25,24 @@ textarea {
     border: 1px solid #ffffff;
     color: grey;
     border-radius: 30px;
-    margin-top: 35px;
+    margin-top: 80px;
 }
 
-#create-page #submit {
+#submit {
     border: none;
     outline: none;
     background-color: transparent;
     border-bottom: 1px solid #000000;
     padding-top: 35px;
     width: 50%;
+    height: 70px;
     display: inline-block;
     padding: 12px 20px;
     background-color: #e78709;
     border: 1px solid #e78709;
     color: #ffffff;
     border-radius: 30px;
+    margin-top: 120px;
 }
 
 .form_container input.message-box {
