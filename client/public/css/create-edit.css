@@ -12,7 +12,7 @@
     box-shadow: 0px 0px 32px 0px #32485e, -14px -14px 20px #191c21;
     border-radius: 20px;
 }
-#create-page .form_container input,
+.form_container_create input,
 textarea {
     border: none;
     outline: none;
@@ -29,7 +29,7 @@ textarea {
     margin-top: 35px;
 }
 
-#create-page #submit {
+.form_container_create #submit {
     border: none;
     outline: none;
     background-color: transparent;
@@ -44,15 +44,15 @@ textarea {
     border-radius: 30px;
 }
 
-.form_container input.message-box {
+.form_container_create input.message-box {
     padding-top: 55px;
 }
 
-.form_container button:hover {
+.form_container_create button:hover {
     background-color: rgb(0, 155, 155);
     color: #ffffff;
 }
 
-textarea {
+.form_container_create textarea {
     margin-top: 30px;
 }

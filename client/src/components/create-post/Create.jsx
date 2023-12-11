@@ -1,6 +1,6 @@
 export default function Create() {
     return (
-        <div className="form_container ">
+        <div className="form_container_create">
             <section id="create-page" className="auth">
                 <form id="create">
                     <div className="container">
