@@ -2,6 +2,11 @@
     background-image: url(../images/about-bg.png);
     background-size: cover;
   }
+
+.about_section .container {
+  background-color: bisque;
+  padding-bottom: 20px;
+}
   
   .about_section .row {
     -webkit-box-align: baseline;

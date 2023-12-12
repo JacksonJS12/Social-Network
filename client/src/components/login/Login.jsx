@@ -18,11 +18,6 @@ export default function Login() {
                                     novalidate=""
                                     _lpchecked="1"
                                 >
-                                    <input
-                                        type="hidden"
-                                        name="_csrf"
-                                        value="7635eb83-1f95-4b32-8788-abec2724a9a4"
-                                    />
                                     <div className="form-group required">
                                         <label for="gmail">Email</label>
                                         <input
@@ -84,7 +79,7 @@ export default function Login() {
                                     <span className="text-muted">
                                         Not a member?
                                     </span>
-                                    <Link to="/signup"> Sign up</Link>
+                                    <Link to="/register"> Sign up</Link>
                                 </p>
                             </div>
                         </div>
