@@ -8,6 +8,7 @@
 @import "buy.css";
 @import "client.css";
 @import "info.css";
+@import "blog.css";
 @import "create-edit.css";
 
 html {
@@ -19,15 +20,3 @@ body {
     position: relative;
 }
 
-.field-icon {
-    float: right;
-    margin-left: -25px;
-    margin-top: -25px;
-    position: relative;
-    z-index: 2;
-  }
-  
-  .container{
-    padding-top:50px;
-    margin: auto;
-  }
