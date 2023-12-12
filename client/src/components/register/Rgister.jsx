@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 
-export default function Login() {
+export default function Register() {
     return (
         <div className="login_form_container">
             <div className="pt-5">
@@ -8,7 +8,7 @@ export default function Login() {
                     <div className="row">
                         <div className="col-md-5 mx-auto">
                             <div className="card card-body">
-                                <h1 className="text-center">Login</h1>
+                                <h1 className="text-center">Register</h1>
                                 <form
                                     id="submitForm"
                                     action="/login"
@@ -39,12 +39,21 @@ export default function Login() {
                                             for="password"
                                         >
                                             Password
-                                            <Link
-                                                className="ml-auto border-link small-xl"
-                                                to="/forget-password"
-                                            >
-                                                Forget?
-                                            </Link>
+                                        </label>
+                                        <input
+                                            type="password"
+                                            className="form-control"
+                                            required=""
+                                            id="password"
+                                            name="password"
+                                        /><span toggle="#password-field" class="fa fa-fw fa-eye field-icon toggle-password"></span>
+                                    </div>
+                                    <div className="form-group required">
+                                        <label
+                                            className="d-flex flex-row align-items-center"
+                                            for="password"
+                                        >
+                                            Confirm Password
                                         </label>
                                         <input
                                             type="password"
@@ -76,15 +85,15 @@ export default function Login() {
                                             className="btn btn-primary btn-block"
                                             type="submit"
                                         >
-                                            Log In
+                                            Register
                                         </button>
                                     </div>
                                 </form>
                                 <p className="small-xl pt-3 text-center">
                                     <span className="text-muted">
-                                        Not a member?
+                                        Already a member?
                                     </span>
-                                    <Link to="/signup"> Sign up</Link>
+                                    <Link to="/login"> Log in</Link>
                                 </p>
                             </div>
                         </div>

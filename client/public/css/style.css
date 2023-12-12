@@ -9,12 +9,25 @@
 @import "client.css";
 @import "info.css";
 @import "create-edit.css";
-@import "login.css";
 
 html {
     height: 100%;
 }
 body {
     min-height: 100%;
+    background-image: url(/images/backgroud.jpg);
     position: relative;
 }
+
+.field-icon {
+    float: right;
+    margin-left: -25px;
+    margin-top: -25px;
+    position: relative;
+    z-index: 2;
+  }
+  
+  .container{
+    padding-top:50px;
+    margin: auto;
+  }

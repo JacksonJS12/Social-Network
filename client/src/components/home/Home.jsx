@@ -5,8 +5,6 @@ export default function Hero() {
     return (
         <div className="hero_area">
             <HomeSlider />
-
-            <About />
         </div>
     );
 }
