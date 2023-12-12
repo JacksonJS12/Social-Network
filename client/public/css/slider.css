@@ -1,80 +1,81 @@
 /* slider section */
 .slider_section {
     background-image: url(/images/hero.png);
-      padding: 13% 0;
+    padding: 13% 0;
+    object-fit: cover;
     background-repeat: repeat;
-  }
-  
-  .slider_section .row {
+
+}
+
+.slider_section .row {
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-  }
-  
-  .slider_detail-box h1 {
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.slider_detail-box h1 {
     color: #ffffff;
     font-size: 52px;
-  }
-  
-  .slider_detail-box h1 span {
+}
+
+.slider_detail-box h1 span {
     display: inline-block;
     color: #434242;
     font-weight: bold;
-  }
-  
-  .slider_detail-box p {
+}
+
+.slider_detail-box p {
     color: #f6f8f7;
     margin-top: 45px;
     margin-bottom: 40px;
-  }
-  
-  .slider_detail-box .btn-box .btn-1 {
+}
+
+.slider_detail-box .btn-box .btn-1 {
     display: inline-block;
     padding: 10px 45px;
     background-color: #023b48;
     border: 1px solid #023b48;
     color: #ffffff;
     margin-right: 10px;
-  }
-  
-  .slider_detail-box .btn-box .btn-1:hover {
+}
+
+.slider_detail-box .btn-box .btn-1:hover {
     background-color: transparent;
     color: #023b48;
-  }
-  
-  .slider_detail-box .btn-box .btn-2 {
+}
+
+.slider_detail-box .btn-box .btn-2 {
     display: inline-block;
     padding: 10px 45px;
     background-color: #ffffff;
     border: 1px solid #ffffff;
     color: #023b48;
-  }
-  
-  .slider_detail-box .btn-box .btn-2:hover {
+}
+
+.slider_detail-box .btn-box .btn-2:hover {
     background-color: transparent;
     color: #ffffff;
-  }
-  
-  .slider_img-box {
+}
+
+.slider_img-box {
     margin-right: 5%;
-  }
-  
-  .slider_img-box img {
+}
+
+.slider_img-box img {
     width: 100%;
-  }
-  
+}
 
 .carousel-indicators {
-  bottom: -15%;
+    bottom: -15%;
 }
 
 .carousel-indicators li {
-  width: 20px;
-  height: 20px;
-  border-radius: 100%;
-  opacity: 1;
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    opacity: 1;
 }
 
 .carousel-indicators .active {
-  background-color: #010106;
+    background-color: #010106;
 }
