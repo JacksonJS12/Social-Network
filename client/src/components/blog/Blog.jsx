@@ -1,5 +1,3 @@
-import BlogItem from "./blog-item/BlogItem";
-
 export default function Blog() {
   return (
     <div className="blog container">
@@ -8,7 +6,42 @@ export default function Blog() {
           <div className="row">
             <div className="col-lg-8 mb-5 mb-lg-0">
               <div className="blog_left_sidebar">
-                <BlogItem />
+                <article className="blog_item">
+                  <div className="blog_item_img">
+                    <img
+                      className="card-img rounded-0"
+                      src="/images/blog/single_blog_1.png"
+                      alt="single_blog_1"
+                    />
+                    <a href="#" className="blog_item_date">
+                      <h3>15</h3>
+                      <p>Jan</p>
+                    </a>
+                  </div>
+
+                  <div className="blog_details">
+                    <a className="" href="single-blog.html">
+                      <h2>Google inks pact for new 35-storey office</h2>
+                    </a>
+                    <p>
+                      That dominion stars lights dominion divide years for
+                      fourth have don't stars is that he earth it first without
+                      heaven in place seed it second morning saying.
+                    </p>
+                    <ul className="blog-info-link">
+                      <li>
+                        <a href="#">
+                          <i className="fa fa-user"></i> Travel, Lifestyle
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#">
+                          <i className="fa fa-comments"></i> 03 Comments
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                </article>
 
                 <article className="blog_item">
                   <div className="blog_item_img">
