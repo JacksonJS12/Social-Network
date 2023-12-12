@@ -1,11 +1,11 @@
 export default function About() {
     return (
         <section className="about_section layout_padding">
-            <div className="container">
+            <div className="container" id="about_page">
                 <div className="row">
                     <div className="col-md-6">
                         <div className="img-box">
-                            <img src="images/about.png" alt="" />
+                            <img src="images/about.png" alt="about pic" />
                         </div>
                     </div>
                     <div className="col-md-6">

@@ -8,13 +8,15 @@
 @import "buy.css";
 @import "client.css";
 @import "info.css";
+@import "blog.css";
 @import "create-edit.css";
-@import "login.css";
 
 html {
     height: 100%;
 }
 body {
     min-height: 100%;
+    background-image: url(/images/backgroud.jpg);
     position: relative;
 }
+

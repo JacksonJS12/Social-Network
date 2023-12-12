@@ -1,53 +1,72 @@
+import {Link} from 'react-router-dom'
+
 export default function Create() {
     return (
-        <div className="form_container_create">
-            <section id="create-page" className="auth">
-                <form id="create">
-                    <div className="container">
-                        <h1>Create Post</h1> 
-                         <input
-                            type="text"
-                            id="title"
-                            name="title"
-                            placeholder="Enter username..."
-                        />
-                        <input
-                            type="text"
-                            id="title"
-                            name="title"
-                            placeholder="Enter title..."
-                        />
-
-                        <input
-                            type="text"
-                            id="category"
-                            name="category"
-                            placeholder="Enter category..."
-                        />
-
-                        <input
-                            type="text"
-                            id="imageUrl"
-                            name="imageUrl"
-                            placeholder="Upload a photo..."
-                        />
-
-                        <textarea
-                            name="summary"
-                            id="summary"
-                            cols="40"
-                            rows="3"
-                            placeholder="Summary..."
-                        ></textarea>
-                        <input
-                            className="btn-submit"
-                            id="submit"
-                            type="submit"
-                            value="Create Post"
-                        />
+        <div className="create_form_container">
+                <div className="container">
+                    <div className="row">
+                        <div className="col-md-5 mx-auto">
+                            <div className="card card-body">
+                                <h1 className="text-center">Create Post</h1>
+                                <form
+                                    id="submitForm"
+                                    action="/create"
+                                    method="post"
+                                    data-parsley-validate=""
+                                    data-parsley-errors-messages-disabled="true"
+                                    novalidate=""
+                                    _lpchecked="1"
+                                >
+                                   
+                                    <div className="form-group required">
+                                        <label for="gmail">Email</label>
+                                        <input
+                                            type="text"
+                                            className="form-control text-lowercase"
+                                            id="gmail"
+                                            name="gmail"
+                                        />
+                                    </div>
+                                    <div className="form-group required">
+                                        <label for="title">Title</label>
+                                        <input
+                                            type="text"
+                                            className="form-control text-lowercase"
+                                            id="title"
+                                            name="title"
+                                        />
+                                    </div> 
+                                    <div className="form-group required">
+                                        <label for="imgUrl">Image URL</label>
+                                        <input
+                                            type="text"
+                                            className="form-control text-lowercase"
+                                            id="imgUrl"
+                                            name="imgUrl"
+                                        />
+                                    </div>
+                                    <div className="form-group required">
+                                        <label for="text">Text</label>
+                                        <textarea
+                                            type="text"
+                                            className="form-control text-lowercase"
+                                            id="img-url"
+                                            name="img-url"
+                                        />
+                                    </div>
+                                    <div className="form-group pt-1">
+                                        <button
+                                            className="btn btn-primary btn-block"
+                                            type="submit"
+                                        >
+                                            Create  
+                                        </button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
                     </div>
-                </form>
-            </section>
-        </div>
+                </div>
+            </div>
     );
 }

@@ -36,8 +36,8 @@ export default function Header() {
                                     </a>
                                 </li>
                                 <li className="nav-item">
-                                    <a className="nav-link" href="/forum">
-                                        Forum
+                                    <a className="nav-link" href="/blog">
+                                        Blog
                                     </a>
                                 </li>
                                 <li className="nav-item">
@@ -53,6 +53,11 @@ export default function Header() {
                                 <li className="nav-item">
                                     <a className="nav-link" href="/login">
                                         Login
+                                    </a>
+                                </li> 
+                                <li className="nav-item">
+                                    <a className="nav-link" href="/register">
+                                        Register
                                     </a>
                                 </li>
                             </ul>
