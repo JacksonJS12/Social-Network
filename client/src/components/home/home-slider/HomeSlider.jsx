@@ -1,4 +1,7 @@
+import { useState } from "react";
+
 export default function HomeSlider() {
+    
     return (
             <section className="slider_section position-relative">
             <div
