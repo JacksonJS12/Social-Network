@@ -1,6 +1,6 @@
 export default function HomeSlider() {
     return (
-        <section className="slider_section position-relative">
+            <section className="slider_section position-relative">
             <div
                 id="carouselExampleIndicators"
                 className="carousel slide"
