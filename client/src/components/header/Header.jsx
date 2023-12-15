@@ -46,8 +46,8 @@ export default function Header() {
                                     </a>
                                 </li>
                                 <li className="nav-item">
-                                    <a className="nav-link" href="/contact">
-                                        Contact us
+                                    <a className="nav-link" href="/privacy">
+                                       Privacy
                                     </a>
                                 </li>
                                 <li className="nav-item">

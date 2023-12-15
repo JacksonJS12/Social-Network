@@ -9,7 +9,9 @@
 @import "client.css";
 @import "info.css";
 @import "blog.css";
+@import "privacy.css";
 @import "create-edit.css";
+@import "details.css";
 
 html {
     height: 100%;

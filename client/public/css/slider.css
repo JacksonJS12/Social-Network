@@ -1,10 +1,8 @@
 /* slider section */
 .slider_section {
     background-image: url(/images/hero.png);
-    padding: 13% 0;
-    object-fit: cover;
-    background-repeat: repeat;
-
+    padding: 10% 0;
+    background-size: 100% 100%;;
 }
 
 .slider_section .row {
